@@ -2,15 +2,22 @@ package main
 
 import "fmt"
 
-func split(sum int) (x, y int) {
+func split(sum int) (x int, y int, z string) {
 	x = sum * 4 / 9
 	y = sum - x
+	z = "Test"
 	return
 }
 
 func main() {
+	var b int = 2
+	c := 1337
+	
+	fmt.Println(b)
+	fmt.Println(c)
 	fmt.Println(split(17))
 }
+
 /** 
 
 Named return values
