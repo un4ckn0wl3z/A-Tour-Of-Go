@@ -8,10 +8,13 @@ type Vertex struct {
 }
 
 func main() {
-	v := Vertex{1, 2}
+	v := Vertex{}
 	v.X = 4
+	v.Y = 5
 	fmt.Println(v.X)
+	fmt.Println(v.Y)
 }
+
 /** 
 Struct Fields
 Struct fields are accessed using a dot.
